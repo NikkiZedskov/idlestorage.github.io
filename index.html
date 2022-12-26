@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script defer src="main.js" type=""></script>
+    <title>idlestorage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/ouv5qkb.css">
+</head>
+
+<body>
+
+    <span id="popup-message">
+        <div class="popup-message-content | container">
+            <p>Vi har fullbokat för tillfället, fyll i din email så meddelar vi dig när du kan boka igen.</p>
+            <button id="close-popup"></button>
+        </div>
+    </span>
+    <header class="header | bg-neutral-100">
+        <div class="primary-header | container">
+            <div class="primary-header-div">
+                <a class="primary-nav-logo" href="#"><img src="/Resources/Logo:svg/idlestorage_logo_white-bg.png" alt=""></a>
+                <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="visually-hidden">Menu</span>
+                </button>
+                <div class="primary-nav-wrapper" data-visible="false">
+                    <nav class="primary-nav">
+                        <ul>
+                            <li><a href="">Kontakt</a></li>
+                        </ul>
+                    </nav>
+                    <button class="nav-button">Logga in</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-image-shadow">
+            <div class="container">
+                <div class="hero-div">
+                    <h1 class="hidden | fw-bold fs-hero-heading text-neutral-100 ">Fö<span class="h1-r-spacing">r</span>vara dina saker utan att lämna soffan</h1>
+                    <p class="mobile-only-text | fs-350">Fyll i din email och få notis 
+                        när du kan boka igen.</p>
+                    <form name="email" class="home-email-container">
+                        <input name="email" class="home-email-input | fs-500 fw-regular" type="email" required placeholder="Email adress">
+                        <button class="primary-button-bg | btn" type="submit">
+                            <svg class="email-button-svg" 
+                                xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Notifications</title><path d="M427.68 351.43C402 320 383.87 304 383.87 217.35 383.87 138 343.35 109.73 310 96c-4.43-1.82-8.6-6-9.95-10.55C294.2 65.54 277.8 48 256 48s-38.21 17.55-44 37.47c-1.35 4.6-5.52 8.71-9.95 10.53-33.39 13.75-73.87 41.92-73.87 121.35C128.13 304 110 320 84.32 351.43 73.68 364.45 83 384 101.61 384h308.88c18.51 0 27.77-19.61 17.19-32.57zM320 384v16a64 64 0 01-128 0v-16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/>
+                            </svg>
+                            
+                            Få notis
+                        </button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </section> 
+        <section>
+            <div class="container">
+                    <div class="how-it-works">
+                        <h2 class="hidden wavy-underline | fw-bold text-align-center">Hur det funkar</h2>
+                        <div class="step-by-step">
+                            <div>
+                                <img class="first-illustration | down" src="/Resources/Logo:svg/1st_illustration.svg" alt=""> 
+                                <h3 class="hidden | fw-bold fs-secondary-heading">Hämtning</h3>
+                                <p class="hidden | fs-regular fw-regular">Vi hämtar föremålen hos dig, boka enkelt online</p>
+                            </div>
+                            <div>
+                                <img class="second-illustration | down" src="/Resources/Logo:svg/2nd_illustration.svg" alt="">
+                                <h3 class="hidden | fw-bold fs-secondary-heading">Förvaring</h3>
+                                <p class="hidden | fs-regular fw-regular">Vi förvarar dina föremål tryggt och säkert åt dig</p>
+                            </div>
+                            <div>
+                                <img class="third-illustration | down" src="/Resources/Logo:svg/3rd_illustration.svg" alt="">
+                                <h3 class="hidden | fw-bold fs-secondary-heading">Leverans</h3>
+                                <p class="hidden | s-regular fw-regular">Välj ett eller flera föremål från bilderna online</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial-bg">
+            <span>
+                <div class="testimonial | container-2">
+                    <div>
+                        <p class="customer-testimonial | fs-600 text-neutral-100">"Idlestorage hjälpte mig förvara medans jag flyttade utomlands. Hela processen var snabb och enkel så jag kunde fokusera på flytten utan stress."</p>
+                        <h3 class="testimonial-h3 | text-neutral-100">Claudia, Örebro</h3>
+                    </div>
+                    <div>
+                        <img class="testimonial-img" src="/Resources/Images/AdobeStock_457504159.jpeg" alt="">
+                    </div>
+                    <h3 class="hidden-on-desktop | text-neutral-100">Claudia, Örebro</h3>
+                </div>
+            </span>
+        </section>
+        <section>
+            <div class="container">
+                <div class="branding">
+                    <h2 class="hidden | fs-primary-heading fw-bold text-align-center">Förvaring borde vara så här enkelt</h2>
+                    <p class="hidden | text-align-center text-neutral-500 fs-500 fw-regular">
+                        Vare sig du ska flytta, renovera eller behöver organisera hemma så är förvaring jobbigt - hitta ett förråd, packa, bära och allt körande. Vi sköter allt, så du kan ta det lugnt och leva ditt liv.
+                    </p>
+                    <div class="down | image-grid">
+                        <img class="grid-1" src="./Resources/Images/pexels-tatiana-syrikova-3932957.jpg" alt="">
+                        <img class="grid-2 hidden-on-mobile" src="./Resources/Images/pexels-blue-bird-7217752.jpg" alt="">
+                        <img class="hidden-on-mobile" src="./Resources/Images/pexels-emre-can-acer-2079249.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how-to-become-customer">
+            <div class="container-2">
+                <div>
+                    <h2 class="hidden | fs-primary-heading fw-bold text-align-center">Det smartaste sättet att förvara</h2>
+                </div>
+            </div>
+            <div class="step-by-step-svg">
+                <img src="/Resources/Logo:svg/step-by-step_illustration.svg" alt="">
+            </div>
+            <div class="step-by-step-svg-mobile">
+                <img src="/Resources/Logo:svg/step-by-step_illustration-mobile.svg" alt="">
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="benefits-grid | even-columns vertical-align-center">
+                    <div class="first-benefit-div">
+                        <h2 class="hidden | first-benefit first-benefit-underline | fs-primary-heading fw-bold">Du sparar<br>tid och pengar</h2>
+                        <p class="hidden | fs-500 fw-regular text-neutral-500">Du betalar endast för den yta du använder och slipper åka varje gång du behöver något.</p>
+                    </div>
+                    <div class="down">
+                        <img src="./Resources/Images/pexels-rodnae-productions-7464209.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="benefit-reverse-grid | even-columns vertical-align-center">
+                    <div>
+                        <img class="down" src="./Resources/Images/pexels-antoni-shkraba-5244093.jpg" alt="">
+                    </div>
+                    <div class="second-benefit-div">
+                        <h2 class="hidden | second-benefit second-benefit-underline | fs-primary-heading fw-bold">Du är upptagen<br>Vi gör jobbet.</h2>
+                        <p class="hidden | fs-500 fw-regular text-neutral-500">Luta dig bakåt, vi sköter allt. Du kan alltid låna ut, donera eller sälja senare, vi levererar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-secondary-800">
+            <div class="container">
+                <div class="our-goal | text-align-center">
+                    <p>Vårt mål är att göra förvarings upplevelsen bekväm så du kan fokusera mer på vad du tycker är viktigt i livet.</p>
+                </div>
+            </div>    
+        </section>
+        <section>
+            <div class="container">
+                <div class="features">
+                    <div>
+                        <h2 class="hidden features-heading | fw-bold fs-primary-heading">Dina föremål levererade med ett knapp tryck.</h2>
+                        <img class="phone-illustration-mobile | down" src="/Resources/Logo:svg/account-phone-illustration.png" alt="">
+                        <h3 class="hidden feature-1 | fw-bold fs-secondary-heading">Du har kontroll</h3>
+                        <p class="hidden | fs-500 fw-regular text-neutral-500">
+                            Se dina saker när och vart som helst 
+                            från bilderna vi laddar upp på ditt konto.
+                        </p>
+                        <h3 class="hidden feature-2 | fw-bold fs-secondary-heading">Flexibel åtkomst</h3>
+                        <p class="hidden | fs-500 fw-regular text-neutral-500">
+                            Tryck på ett eller flera av dina föremål 
+                            för att välja och få det levererat när som helst.
+                        </p>
+                    </div>
+                    <div class="phone-illustration hidden-on-mobile down">
+                        <img src="/Resources/Logo:svg/account-phone-illustration.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="last-cta-div | even-columns">
+                    <div>
+                        <img class="down" src="./Resources/Images/AdobeStock_507930330.jpeg" alt="">
+                        <div>
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="last-cta">
+                        <h2 class="hidden last-cta-heading | fs-primary-heading fw-bold">Den bästa förvarings<br>Upplevelsen börjar här</h2>
+                        <form id="second-form" class="hidden | home-bottom-email-container" name="email">
+                            <input name="email" class="fs-400 fw-regular home-email-input-bottom home-email-input" type="email" required placeholder="Email adress">
+                            <button class="primary-button-sm | btn" type="submit">
+                                <svg class="bottom-email-button-svg" 
+                                    xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Notifications</title><path d="M427.68 351.43C402 320 383.87 304 383.87 217.35 383.87 138 343.35 109.73 310 96c-4.43-1.82-8.6-6-9.95-10.55C294.2 65.54 277.8 48 256 48s-38.21 17.55-44 37.47c-1.35 4.6-5.52 8.71-9.95 10.53-33.39 13.75-73.87 41.92-73.87 121.35C128.13 304 110 320 84.32 351.43 73.68 364.45 83 384 101.61 384h308.88c18.51 0 27.77-19.61 17.19-32.57zM320 384v16a64 64 0 01-128 0v-16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="primary-footer">
+        <div class="container">
+            <div class="primary-footer-wrapper">
+                <div class="primary-footer-left">
+                    <div class="primary-footer-logo">
+                        <a href="#"><img src="/Resources/Logo:svg/idlestorage_logo_footer.png" alt=""></a>
+                    </div>
+                    <nav class="">
+                        <ul class="primary-footer-nav">
+                            <li><a href="#">Kontakt</a></li>
+                            <li><a href="">Logga in</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="primary-footer-right">
+                    <ul class="social-list">
+                        <li><a href="">
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24"><path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+                            </svg>
+                        </a></li>
+                        <li><a href="">
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30"><path d="M15,3C8.373,3,3,8.373,3,15c0,6.016,4.432,10.984,10.206,11.852V18.18h-2.969v-3.154h2.969v-2.099c0-3.475,1.693-5,4.581-5 c1.383,0,2.115,0.103,2.461,0.149v2.753h-1.97c-1.226,0-1.654,1.163-1.654,2.473v1.724h3.593L19.73,18.18h-3.106v8.697 C22.481,26.083,27,21.075,27,15C27,8.373,21.627,3,15,3z"></path>
+                            </svg>
+                        </a></li>
+                        <li><a href="">
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30"><path d="M15,3C8.373,3,3,8.373,3,15c0,5.084,3.163,9.426,7.627,11.174c-0.105-0.949-0.2-2.406,0.042-3.442 c0.218-0.936,1.407-5.965,1.407-5.965s-0.359-0.719-0.359-1.781c0-1.669,0.967-2.914,2.171-2.914c1.024,0,1.518,0.769,1.518,1.69 c0,1.03-0.655,2.569-0.994,3.995c-0.283,1.195,0.599,2.169,1.777,2.169c2.133,0,3.772-2.249,3.772-5.495 c0-2.873-2.064-4.882-5.012-4.882c-3.414,0-5.418,2.561-5.418,5.208c0,1.031,0.397,2.137,0.893,2.739 c0.098,0.119,0.112,0.223,0.083,0.344c-0.091,0.379-0.293,1.194-0.333,1.361c-0.052,0.22-0.174,0.266-0.401,0.16 c-1.499-0.698-2.436-2.889-2.436-4.649c0-3.785,2.75-7.262,7.929-7.262c4.163,0,7.398,2.966,7.398,6.931 c0,4.136-2.608,7.464-6.227,7.464c-1.216,0-2.359-0.632-2.75-1.378c0,0-0.602,2.291-0.748,2.853 c-0.271,1.042-1.002,2.349-1.492,3.146C12.57,26.812,13.763,27,15,27c6.627,0,12-5.373,12-12S21.627,3,15,3z"></path>
+                            </svg>
+                        </a></li>
+                    </ul>
+                </div>
+                <nav class="primary-footer-mobile">
+                    <ul class="primary-footer-mobile-nav">
+                        <li><a href="">Kontakt</a></li>
+                        <li><a href="">Logga in</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
